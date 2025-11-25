@@ -3,186 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Iqbal Alfarizi | Portfolio</title>
-    
+    <title>Home - Iqbal Alfarizi</title>
     <link rel="stylesheet" href="style.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
-    <div id="preloader">
-        <div class="loader-content">
-            <span class="loader-text">IQBAL<span class="dot">.</span>DEV</span>
-            <div class="progress-bar"><div class="fill"></div></div>
-        </div>
-    </div>
-
-    <div class="background-blobs">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-    </div>
-
-    <header id="header">
-        <a href="#" class="logo">Iqbal<span class="highlight">.Alfarizi</span></a>
-        <div class="bx bx-menu" id="menu-icon"><i class="fas fa-bars"></i></div>
+    <header>
+        <a href="index.html" class="logo">Iqbal<span>.Dev</span></a>
+        <div class="fas fa-bars" id="menu-icon"></div>
         <nav class="navbar">
-            <a href="#home" class="active" data-text="Home">Home</a>
-            <a href="#about" data-text="About">Tentang</a>
-            <a href="#services" data-text="Skills">Keahlian</a>
-            <a href="#portfolio" data-text="Portfolio">Pengalaman</a>
-            <a href="#contact" data-text="Contact">Hubungi</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About & CV</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-content" data-aos="fade-right" data-aos-duration="1000">
-            <h3>Selamat Datang, Saya</h3>
-            <h1 class="glitch" data-text="M. Iqbal Alfarizi">M. Iqbal Alfarizi</h1>
-            <div class="animated-text">
-                Saya adalah <span class="typing-text"></span>
+    <section class="home">
+        <div class="home-content">
+            <h3>Halo, Saya</h3>
+            <h1>M. Iqbal Alfarizi</h1>
+            <p>Lulusan S1 Teknik Informatika yang bertransformasi menjadi <strong>Spesialis Administrasi Modern</strong>. Saya menggabungkan kecepatan logika IT dengan ketelitian manajemen data untuk menciptakan efisiensi kerja.</p>
+            <div class="btn-box">
+                <a href="about.html" class="btn">Lihat Profil Saya</a>
+                <a href="portfolio.html" class="btn" style="background: transparent; border: 2px solid #00f2ff; color: #00f2ff; margin-left: 10px;">Lihat Karya</a>
             </div>
-            <p>Seorang lulusan <strong>Teknik Informatika</strong> yang menguasai seni <strong>Administrasi Digital</strong>. Menggabungkan logika pemrograman dengan ketelitian manajemen data untuk efisiensi kerja maksimal.</p>
-            
-            <div class="social-media">
-                <a href="https://wa.me/6285853409699" style="--i:1"><i class="fab fa-whatsapp"></i></a>
-                <a href="mailto:iqbalalfarizi045@gmail.com" style="--i:2"><i class="fas fa-envelope"></i></a>
-                <a href="#" style="--i:3"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" style="--i:4"><i class="fab fa-instagram"></i></a>
-            </div>
-            <a href="#contact" class="btn">Hire Me Now</a>
         </div>
-
-        <div class="home-img" data-aos="zoom-in" data-aos-duration="1000">
-            <div class="img-box">
-                <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Iqbal">
-            </div>
+        <div class="home-img">
+            <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Profile">
         </div>
     </section>
 
-    <section class="about" id="about">
-        <div class="about-img" data-aos="fade-right">
-            <img src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-2974925-2477356.png" alt="Illustration">
-        </div>
-        <div class="about-content" data-aos="fade-left">
-            <h2 class="heading">Tentang <span>Saya</span></h2>
-            <h3>IT Graduate & Admin Specialist</h3>
-            <p>Lulusan S1 Teknik Informatika Universitas Darul Ulum Jombang (IPK 3.25). Saya memiliki keunikan dibandingkan admin biasa: Saya paham sistem, troubleshooting komputer, dan manajemen data tingkat lanjut. </p>
-            
-            <div class="stats-container">
-                <div class="stat-box" data-tilt>
-                    <h3>3+</h3>
-                    <p>Tahun Pengalaman<br>Pengetikan & Data</p>
-                </div>
-                <div class="stat-box" data-tilt>
-                    <h3>20+</h3>
-                    <p>Project Dokumen<br>Terselesaikan</p>
-                </div>
-                <div class="stat-box" data-tilt>
-                    <h3>2th</h3>
-                    <p>Pengalaman<br>Organisasi (Sekretaris)</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <h2 class="heading">Keahlian <span>Utama</span></h2>
-        <div class="services-container">
-            
-            <div class="service-box" data-tilt data-aos="fade-up" data-aos-delay="100">
-                <i class="fas fa-database"></i>
-                <h3>Data & Admin</h3>
-                <p>Penguasaan penuh Ms. Office (Word, Excel, PPT) dan Google Workspace. Mampu melakukan input data cepat dan akurat.</p>
-                <a href="#" class="read-more">Lihat Detail</a>
-            </div>
-
-            <div class="service-box" data-tilt data-aos="fade-up" data-aos-delay="200">
-                <i class="fas fa-laptop-code"></i>
-                <h3>IT Support</h3>
-                <p>Tidak perlu panggil teknisi luar. Saya bisa troubleshooting PC, Printer, Install Ulang, dan Maintenance Jaringan (Mikrotik).</p>
-                <a href="#" class="read-more">Lihat Detail</a>
-            </div>
-
-            <div class="service-box" data-tilt data-aos="fade-up" data-aos-delay="300">
-                <i class="fas fa-sitemap"></i>
-                <h3>Organisasi</h3>
-                <p>Berpengalaman sebagai Sekretaris PSHT. Terbiasa dengan surat menyurat resmi, pengarsipan, dan notulensi rapat.</p>
-                <a href="#" class="read-more">Lihat Detail</a>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Jejak <span>Karir</span></h2>
-        
-        <div class="timeline">
-            <div class="timeline-item left" data-aos="fade-right">
-                <div class="timeline-content" data-tilt>
-                    <div class="date">2022 - 2025</div>
-                    <h2>Fariz Print (Owner)</h2>
-                    <p>Membangun usaha jasa pengetikan mandiri. Spesialis formatting skripsi, makalah, dan editing dokumen kompleks untuk mahasiswa & umum.</p>
-                </div>
-            </div>
-            
-            <div class="timeline-item right" data-aos="fade-left">
-                <div class="timeline-content" data-tilt>
-                    <div class="date">2022 - Sekarang</div>
-                    <h2>Sekretaris PSHT</h2>
-                    <p>Mengelola administrasi organisasi Ranting Puri. Menangani database anggota, surat masuk/keluar, dan proposal kegiatan.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item left" data-aos="fade-right">
-                <div class="timeline-content" data-tilt>
-                    <div class="date">3 Bulan (Sem. 6)</div>
-                    <h2>Magang IT Network</h2>
-                    <p>Universitas Darul Ulum (FKIP). Melakukan optimalisasi jaringan WiFi, manajemen bandwidth Mikrotik, dan maintenance lab komputer.</p>
-                </div>
-            </div>
-
-             <div class="timeline-item right" data-aos="fade-left">
-                <div class="timeline-content" data-tilt>
-                    <div class="date">Freelance Project</div>
-                    <h2>Bulog & StatsMe</h2>
-                    <p>Surveyor pendataan parkir (StatsMe) & Verifikasi data penerima bantuan pangan di Balai Desa (Bulog/Yasa Artha).</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading">Hubungi <span>Saya</span></h2>
-        <form action="#" data-aos="zoom-in">
-            <div class="input-box">
-                <input type="text" placeholder="Nama Lengkap">
-                <input type="email" placeholder="Alamat Email">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Nomor Handphone">
-                <input type="text" placeholder="Subjek Email">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Pesan Anda"></textarea>
-            <a href="mailto:iqbalalfarizi045@gmail.com" class="btn">Kirim Pesan</a>
-        </form>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2025 by Muhammad Iqbal Alfarizi | All Rights Reserved.</p>
-        </div>
-        <div class="footer-iconTop">
-            <a href="#home"><i class="fas fa-arrow-up"></i></a>
-        </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
